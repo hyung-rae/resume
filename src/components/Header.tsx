@@ -4,37 +4,14 @@ import { IconInfoCircle } from '@tabler/icons-react'
 const Header = () => {
   return (
     <>
-      <Flex justify="space-between" align="flex-end">
-        <Flex align="flex-end" gap="xs">
-          <Title order={2} c="dark">
-            우형래
-          </Title>
+      <Flex align="flex-end" gap="xs" justify="space-between">
+        <Title order={3} c="dark">
+          우형래
+        </Title>
 
-          <Title order={6} c="dark">
-            Junior Frontend Developer
-          </Title>
-        </Flex>
-
-        <Flex gap="md">
-          <Text component="a" target="_blank" href="mailto:woohr1109@gmail.com" size="md" fw="500" c="teal">
-            Mail
-          </Text>
-
-          <Text component="a" target="_blank" href="https://github.com/hyung-rae" size="md" fw="500" c="teal">
-            Github
-          </Text>
-
-          <Text
-            component="a"
-            target="_blank"
-            href="https://hyung-rae.github.io/front-development/"
-            size="md"
-            fw="500"
-            c="teal"
-          >
-            Blog
-          </Text>
-        </Flex>
+        <Title order={6} c="dark">
+          Junior Frontend Developer
+        </Title>
       </Flex>
 
       <Flex direction="column" gap="sm">
