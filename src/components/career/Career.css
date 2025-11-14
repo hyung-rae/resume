@@ -1,0 +1,15 @@
+.career {
+  position: relative;
+  border: 1px solid;
+  height: 100%;
+
+  overflow-y: scroll;
+}
+
+.career-item {
+  position: sticky;
+  top: 0;
+  border: 1px solid red;
+  width: 100%;
+  height: 100%;
+}

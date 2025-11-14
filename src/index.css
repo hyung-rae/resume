@@ -24,6 +24,15 @@
   color: #474747;
 }
 
+button {
+  cursor: pointer;
+  transition: all 0.05s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
